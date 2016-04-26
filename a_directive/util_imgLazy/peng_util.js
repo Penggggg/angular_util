@@ -30,7 +30,7 @@ PengUtil.directive('pengImgLazy',['$window', '$timeout', '$imgLazy', function($w
 			//------- bind scroll -------
 			try{
 				// ----- bind scroll once ------
-				_window.unbind('scroll');
+				// _window.unbind('scroll');
 				_window.bind('scroll', function(){
 					// ------ scrollTop : document.documentElement.scrollTop || document.body.scrollTop --------------
 					// ------ screen height $window.outerHeight -----------------

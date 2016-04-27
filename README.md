@@ -5,3 +5,5 @@
 #####use: `<a peng-go-top></a>` or  `<a peng-go-top=100></a>`
 #### directive_2 —— img lazyload
 ##### use `<img  peng-img-lazy="images/5.jpg" />`
+#### directive_3 —— auto hide bar
+##### use `<auto-hide-bar><ion-tabs>...</ion-tabs></auto-hide-bar>`

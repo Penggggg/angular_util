@@ -1,0 +1,67 @@
+.HXupload_container{
+	width: 100%;height: auto;
+	padding: 15px;
+	border-radius: 6px;
+}
+
+.HXupload_add,
+.HXupload_list{
+	width: 23%;height: 100px;
+	border: 1px solid #ccc;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+	margin: 2px;
+	border-radius: 6px;
+}
+
+.HXupload_list{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.HXupload_add img,
+.HXupload_list img{
+	width: 100%;height: 100%;
+	border-radius: 6px;
+}
+
+.HXupload_close{
+	position: absolute;
+	width: 20px;height: 20px;
+	text-align: center;line-height: 14px;
+	font-size: 16px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.5);
+	right: 5px;top: 5px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.HXupload_loading{
+	position: absolute;
+	left: 50%;top: 50%;
+	transform: translate3d(-50%,-50%,0);
+	-webkit-transform: translate3d(-50%,-50%,0);
+}
+
+.HXupload_add i{
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 60px;
+	color: #ccc;
+}
+
+.HXupload_add input[type="file"]{
+	display: block;
+	width: 100%;height: 100%;
+	border: none;outline: none;
+	position: absolute;
+	top: 0; left: 0;
+	opacity: 0;filter:alpha(opacity=0);
+}
+
+
+
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
